@@ -22,7 +22,7 @@ const color =  prompt('Qual è il tuo colore preferito?')
 
 //collego tutti i punti
 const outputStr = `
-Ciao ${nome + '' + cognome} <br>
+Ciao ${nome + ' ' + cognome} <br>
 Il tuo colore preferito è il ${color}
 `
 
