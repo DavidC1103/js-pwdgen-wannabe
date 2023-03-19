@@ -9,11 +9,14 @@
 
 */
 
-// assegno il nome
-const nome = 'Davide'
+// chiedo il nome
+const nome = prompt('Come ti chiami?')
 
-// assegno il cognome
-const cognome = 'Calaiò'
+// chiedo il cognome
+const cognome = prompt('Qual è il tuo cognome')
 
-//assegno il colore
-const color = 'Rosso' 
+//chiedo il colore
+const color =  prompt('Qual è il tuo colore preferito')
+
+
+ 
