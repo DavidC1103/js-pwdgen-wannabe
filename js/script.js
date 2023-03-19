@@ -13,10 +13,22 @@
 const nome = prompt('Come ti chiami?')
 
 // chiedo il cognome
-const cognome = prompt('Qual è il tuo cognome')
+const cognome = prompt('Qual è il tuo cognome?')
 
 //chiedo il colore
-const color =  prompt('Qual è il tuo colore preferito')
+const color =  prompt('Qual è il tuo colore preferito?')
+
+
+
+//collego tutti i punti
+const outputStr = `
+Ciao ${nome + '' + cognome} <br>
+Il tuo colore preferito è il ${color}
+`
+
+
+//rendo visibile il javascript in html
+document.getElementById("output").innerHTML = outputStr
 
 
  
